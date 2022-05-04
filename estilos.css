@@ -118,3 +118,136 @@ footer footer p {
 }
 
 /*# sourceMappingURL=estilos.css.map */
+.sobremi{
+  background-color:rgb(24, 22, 22) ;
+  color: orangered;
+  
+
+}
+.sobremi img{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.mimision{
+  background-color:rgb(66, 65, 65) ;
+  color: orangered;
+}
+.imgtrabajo{
+  height: 550px;
+  width: 100%;
+}
+
+.servicios{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:rgb(24, 22, 22) ;
+  color: orangered;
+  height: 600px;
+}
+
+.servicios img{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 55px;
+  border: 4px solid black;
+}
+
+.extras{
+   height: 300px;
+   background-color: black;
+   color: white;
+   background-image: linear-gradient(
+       to bottom, black, rgb(24, 22, 22)
+   )
+}
+
+
+
+.clientes{
+  height: 1000px;
+  width: 100%;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-image: linear-gradient(to bottom,  black, rgb(24, 22, 22) );
+}
+
+.img{
+  margin: 10px;
+}
+
+.img1{
+      grid-column: 1/2;
+      grid-row: 1/2,5;
+      background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.50.49.jpeg);
+      background-position: center;
+      background-size: cover;
+     
+  }
+  .img2{
+      grid-column: 2/3;
+      grid-row: 1/2,5;
+      background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.50.48.jpeg)
+      background-position: center;
+      background-size: cover;
+  }
+  
+  .img3{
+      grid-column: 4/5;
+      grid-row: 1/2,5;
+      background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.52.04.jpeg);
+      background-position: center;
+      background-size: cover;
+      
+  }
+  .img4{
+      grid-column: 5/6;
+      grid-row:1/2,5 ;
+      background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.52.06.jpeg);
+      background-position: center;
+      background-size: cover;
+      
+  }
+  .img7{
+      grid-column: 4/6;
+      grid-row: 4/5,5;
+      background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.54.28.jpeg);
+      background-position: center;
+      background-size: cover;
+      
+  }
+  
+  .img5{
+       grid-column: 1/2;
+       grid-row: 4/5,5;
+       background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.59.01.jpeg);
+      background-position: center;
+      background-size: cover;
+     
+  }
+  .img6{
+      grid-column: 2/3;
+      grid-row: 4/5,5;
+      background-image: url(img.html/WhatsApp\ Image\ 2022-04-05\ at\ 11.59.02.jpeg);
+      background-position: center;
+      background-size: cover;
+     
+  }
+
+  .clientes p{
+      font-size: 40px;
+      color: orangered;
+      font-family: 'Times New Roman', Times, serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: row;
+  }
+  
