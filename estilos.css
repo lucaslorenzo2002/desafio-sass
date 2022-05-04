@@ -1,0 +1,120 @@
+header {
+  background-color: black;
+}
+header .logo {
+  height: 100px;
+  width: 100px;
+}
+header .nav-link {
+  color: orange;
+  font-size: 21px;
+  transition: 0.7s;
+  font-family: sans-serif;
+  margin: 5px;
+}
+header .nav-link:hover {
+  color: red;
+  font-size: 27px;
+}
+
+footer {
+  background-color: black;
+  height: 80px;
+}
+footer footer p {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+
+.contacto {
+  background-color: rgb(24, 22, 22);
+  color: white;
+}
+.contacto .imgContacto {
+  height: 900px;
+  width: 100%;
+}
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+.banner {
+  background-image: url(img.html/Aaaaaassssssaaaa.JPEG);
+  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner h1 {
+  color: orangered;
+  font-size: 90px;
+  position: relative;
+  top: 250px;
+  text-shadow: 3px 4px 5px black;
+}
+.banner ul {
+  color: white;
+}
+.banner h3 {
+  color: white;
+}
+
+.videoInformativo {
+  background-color: rgb(24, 22, 22);
+}
+.videoInformativo video {
+  height: 500px;
+  width: 500px;
+}
+.videoInformativo aside h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+.videoInformativo aside p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.videoYT {
+  background-color: rgb(65, 60, 60);
+}
+.videoYT .videoYT h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 110px;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+.videoYT .videoYT p {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 110px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,144 @@
+$fondo1:rgb(24,22,22);
+$fondo2:  black;
+$fondo3: rgb(65,60,60);
+
+$color1: orange;
+$color2: red;
+$color3: white;
+$color4: black;
+$color5: orangered;
+
+header {
+    background-color: $fondo2;
+    
+    .logo{
+    height: 100px;
+    width: 100px;
+    }
+
+    .nav-link{
+        color: $color1;
+        font-size: 21px;
+        transition: 0.7s;
+        font-family: sans-serif;
+        margin: 5px;
+            &:hover{
+            color: $color2;
+            font-size: 27px;
+    }
+    }
+}
+
+footer{
+    background-color: $fondo2;
+    height: 80px;
+    
+  footer p{
+    color: $color1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    }    
+    
+}
+
+    .contacto{
+    background-color:$fondo1 ;
+    color: $color3;
+   
+    .imgContacto{
+    height: 900px;
+    width: 100%;
+    }
+ 
+    form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    }
+
+}  
+
+.banner{
+    background-image: url(img.html/Aaaaaassssssaaaa.JPEG);
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    h1{
+    color: $color5;
+    font-size: 90px;
+    position: relative;
+    top: 250px;
+    text-shadow: 3px 4px 5px black;
+    }
+
+    ul{
+    color:$color3;
+    }
+
+    h3{
+    color: $color3;
+    }
+
+}
+.videoInformativo{
+    background-color:$fondo1;
+
+    video{
+        height: 500px;
+        width: 500px;
+    }
+
+    aside h2{
+    color: $color3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    font-family: sans-serif;
+    font-size: 28px;
+    }
+  
+    aside p{
+    color: $color3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+}
+
+.videoYT{
+    background-color:$fondo3;
+    
+    .videoYT h2{
+    color: $color4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    font-family: sans-serif;
+    font-size: 28px;
+    }
+    
+    .videoYT p{
+    color: $color4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    font-family: sans-serif;
+    font-size: 20px;
+    }
+}
